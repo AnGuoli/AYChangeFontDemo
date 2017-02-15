@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47291C911E54ADE3001B64D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291C901E54ADE3001B64D3 /* main.m */; };
+		47291C941E54ADE3001B64D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291C931E54ADE3001B64D3 /* AppDelegate.m */; };
+		47291C971E54ADE3001B64D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291C961E54ADE3001B64D3 /* ViewController.m */; };
+		47291C9A1E54ADE3001B64D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47291C981E54ADE3001B64D3 /* Main.storyboard */; };
+		47291C9C1E54ADE3001B64D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47291C9B1E54ADE3001B64D3 /* Assets.xcassets */; };
+		47291C9F1E54ADE3001B64D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47291C9D1E54ADE3001B64D3 /* LaunchScreen.storyboard */; };
+		47291CAA1E54ADE4001B64D3 /* AYChangeFontDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CA91E54ADE4001B64D3 /* AYChangeFontDemoTests.m */; };
+		47291CB51E54ADE4001B64D3 /* AYChangeFontDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CB41E54ADE4001B64D3 /* AYChangeFontDemoUITests.m */; };
+		47291CCF1E54AE26001B64D3 /* set-word-img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC21E54AE26001B64D3 /* set-word-img@2x.png */; };
+		47291CD01E54AE26001B64D3 /* list-icon-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC31E54AE26001B64D3 /* list-icon-01.png */; };
+		47291CD11E54AE26001B64D3 /* list-icon-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC41E54AE26001B64D3 /* list-icon-01@2x.png */; };
+		47291CD21E54AE26001B64D3 /* list-icon-01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC51E54AE26001B64D3 /* list-icon-01@3x.png */; };
+		47291CD31E54AE26001B64D3 /* list-icon-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC61E54AE26001B64D3 /* list-icon-02.png */; };
+		47291CD41E54AE26001B64D3 /* list-icon-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC71E54AE26001B64D3 /* list-icon-02@2x.png */; };
+		47291CD51E54AE26001B64D3 /* list-icon-02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC81E54AE26001B64D3 /* list-icon-02@3x.png */; };
+		47291CD61E54AE26001B64D3 /* list-icon-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CC91E54AE26001B64D3 /* list-icon-03.png */; };
+		47291CD71E54AE26001B64D3 /* list-icon-03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CCA1E54AE26001B64D3 /* list-icon-03@2x.png */; };
+		47291CD81E54AE26001B64D3 /* list-icon-03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CCB1E54AE26001B64D3 /* list-icon-03@3x.png */; };
+		47291CD91E54AE26001B64D3 /* list-icon-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CCC1E54AE26001B64D3 /* list-icon-04.png */; };
+		47291CDA1E54AE26001B64D3 /* list-icon-04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CCD1E54AE26001B64D3 /* list-icon-04@2x.png */; };
+		47291CDB1E54AE26001B64D3 /* list-icon-04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47291CCE1E54AE26001B64D3 /* list-icon-04@3x.png */; };
+		47291CE71E54AE35001B64D3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CDD1E54AE35001B64D3 /* OneViewController.m */; };
+		47291CE81E54AE35001B64D3 /* FontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CDF1E54AE35001B64D3 /* FontViewController.m */; };
+		47291CE91E54AE35001B64D3 /* FontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CE11E54AE35001B64D3 /* FontCell.m */; };
+		47291CEA1E54AE35001B64D3 /* FontCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47291CE21E54AE35001B64D3 /* FontCell.xib */; };
+		47291CEB1E54AE35001B64D3 /* AYBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CE41E54AE35001B64D3 /* AYBaseLabel.m */; };
+		47291CEC1E54AE35001B64D3 /* AYFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47291CE61E54AE35001B64D3 /* AYFontManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47291CA61E54ADE4001B64D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47291C841E54ADE3001B64D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47291C8B1E54ADE3001B64D3;
+			remoteInfo = AYChangeFontDemo;
+		};
+		47291CB11E54ADE4001B64D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47291C841E54ADE3001B64D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47291C8B1E54ADE3001B64D3;
+			remoteInfo = AYChangeFontDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47291C8C1E54ADE3001B64D3 /* AYChangeFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYChangeFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47291C901E54ADE3001B64D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47291C921E54ADE3001B64D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47291C931E54ADE3001B64D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47291C951E54ADE3001B64D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47291C961E54ADE3001B64D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47291C991E54ADE3001B64D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47291C9B1E54ADE3001B64D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47291C9E1E54ADE3001B64D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47291CA01E54ADE3001B64D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47291CA51E54ADE4001B64D3 /* AYChangeFontDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYChangeFontDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47291CA91E54ADE4001B64D3 /* AYChangeFontDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYChangeFontDemoTests.m; sourceTree = "<group>"; };
+		47291CAB1E54ADE4001B64D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47291CB01E54ADE4001B64D3 /* AYChangeFontDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYChangeFontDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47291CB41E54ADE4001B64D3 /* AYChangeFontDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYChangeFontDemoUITests.m; sourceTree = "<group>"; };
+		47291CB61E54ADE4001B64D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47291CC21E54AE26001B64D3 /* set-word-img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set-word-img@2x.png"; sourceTree = "<group>"; };
+		47291CC31E54AE26001B64D3 /* list-icon-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-01.png"; sourceTree = "<group>"; };
+		47291CC41E54AE26001B64D3 /* list-icon-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-01@2x.png"; sourceTree = "<group>"; };
+		47291CC51E54AE26001B64D3 /* list-icon-01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-01@3x.png"; sourceTree = "<group>"; };
+		47291CC61E54AE26001B64D3 /* list-icon-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-02.png"; sourceTree = "<group>"; };
+		47291CC71E54AE26001B64D3 /* list-icon-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-02@2x.png"; sourceTree = "<group>"; };
+		47291CC81E54AE26001B64D3 /* list-icon-02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-02@3x.png"; sourceTree = "<group>"; };
+		47291CC91E54AE26001B64D3 /* list-icon-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-03.png"; sourceTree = "<group>"; };
+		47291CCA1E54AE26001B64D3 /* list-icon-03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-03@2x.png"; sourceTree = "<group>"; };
+		47291CCB1E54AE26001B64D3 /* list-icon-03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-03@3x.png"; sourceTree = "<group>"; };
+		47291CCC1E54AE26001B64D3 /* list-icon-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-04.png"; sourceTree = "<group>"; };
+		47291CCD1E54AE26001B64D3 /* list-icon-04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-04@2x.png"; sourceTree = "<group>"; };
+		47291CCE1E54AE26001B64D3 /* list-icon-04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon-04@3x.png"; sourceTree = "<group>"; };
+		47291CDC1E54AE35001B64D3 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		47291CDD1E54AE35001B64D3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		47291CDE1E54AE35001B64D3 /* FontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontViewController.h; sourceTree = "<group>"; };
+		47291CDF1E54AE35001B64D3 /* FontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontViewController.m; sourceTree = "<group>"; };
+		47291CE01E54AE35001B64D3 /* FontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontCell.h; sourceTree = "<group>"; };
+		47291CE11E54AE35001B64D3 /* FontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontCell.m; sourceTree = "<group>"; };
+		47291CE21E54AE35001B64D3 /* FontCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FontCell.xib; sourceTree = "<group>"; };
+		47291CE31E54AE35001B64D3 /* AYBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYBaseLabel.h; sourceTree = "<group>"; };
+		47291CE41E54AE35001B64D3 /* AYBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYBaseLabel.m; sourceTree = "<group>"; };
+		47291CE51E54AE35001B64D3 /* AYFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYFontManager.h; sourceTree = "<group>"; };
+		47291CE61E54AE35001B64D3 /* AYFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYFontManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47291C891E54ADE3001B64D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CA21E54ADE4001B64D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CAD1E54ADE4001B64D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47291C831E54ADE3001B64D3 = {
+			isa = PBXGroup;
+			children = (
+				47291C8E1E54ADE3001B64D3 /* AYChangeFontDemo */,
+				47291CA81E54ADE4001B64D3 /* AYChangeFontDemoTests */,
+				47291CB31E54ADE4001B64D3 /* AYChangeFontDemoUITests */,
+				47291C8D1E54ADE3001B64D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47291C8D1E54ADE3001B64D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47291C8C1E54ADE3001B64D3 /* AYChangeFontDemo.app */,
+				47291CA51E54ADE4001B64D3 /* AYChangeFontDemoTests.xctest */,
+				47291CB01E54ADE4001B64D3 /* AYChangeFontDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47291C8E1E54ADE3001B64D3 /* AYChangeFontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47291CDC1E54AE35001B64D3 /* OneViewController.h */,
+				47291CDD1E54AE35001B64D3 /* OneViewController.m */,
+				47291CDE1E54AE35001B64D3 /* FontViewController.h */,
+				47291CDF1E54AE35001B64D3 /* FontViewController.m */,
+				47291CE01E54AE35001B64D3 /* FontCell.h */,
+				47291CE11E54AE35001B64D3 /* FontCell.m */,
+				47291CE21E54AE35001B64D3 /* FontCell.xib */,
+				47291CE31E54AE35001B64D3 /* AYBaseLabel.h */,
+				47291CE41E54AE35001B64D3 /* AYBaseLabel.m */,
+				47291CE51E54AE35001B64D3 /* AYFontManager.h */,
+				47291CE61E54AE35001B64D3 /* AYFontManager.m */,
+				47291CC21E54AE26001B64D3 /* set-word-img@2x.png */,
+				47291CC31E54AE26001B64D3 /* list-icon-01.png */,
+				47291CC41E54AE26001B64D3 /* list-icon-01@2x.png */,
+				47291CC51E54AE26001B64D3 /* list-icon-01@3x.png */,
+				47291CC61E54AE26001B64D3 /* list-icon-02.png */,
+				47291CC71E54AE26001B64D3 /* list-icon-02@2x.png */,
+				47291CC81E54AE26001B64D3 /* list-icon-02@3x.png */,
+				47291CC91E54AE26001B64D3 /* list-icon-03.png */,
+				47291CCA1E54AE26001B64D3 /* list-icon-03@2x.png */,
+				47291CCB1E54AE26001B64D3 /* list-icon-03@3x.png */,
+				47291CCC1E54AE26001B64D3 /* list-icon-04.png */,
+				47291CCD1E54AE26001B64D3 /* list-icon-04@2x.png */,
+				47291CCE1E54AE26001B64D3 /* list-icon-04@3x.png */,
+				47291C921E54ADE3001B64D3 /* AppDelegate.h */,
+				47291C931E54ADE3001B64D3 /* AppDelegate.m */,
+				47291C951E54ADE3001B64D3 /* ViewController.h */,
+				47291C961E54ADE3001B64D3 /* ViewController.m */,
+				47291C981E54ADE3001B64D3 /* Main.storyboard */,
+				47291C9B1E54ADE3001B64D3 /* Assets.xcassets */,
+				47291C9D1E54ADE3001B64D3 /* LaunchScreen.storyboard */,
+				47291CA01E54ADE3001B64D3 /* Info.plist */,
+				47291C8F1E54ADE3001B64D3 /* Supporting Files */,
+			);
+			path = AYChangeFontDemo;
+			sourceTree = "<group>";
+		};
+		47291C8F1E54ADE3001B64D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47291C901E54ADE3001B64D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47291CA81E54ADE4001B64D3 /* AYChangeFontDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				47291CA91E54ADE4001B64D3 /* AYChangeFontDemoTests.m */,
+				47291CAB1E54ADE4001B64D3 /* Info.plist */,
+			);
+			path = AYChangeFontDemoTests;
+			sourceTree = "<group>";
+		};
+		47291CB31E54ADE4001B64D3 /* AYChangeFontDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47291CB41E54ADE4001B64D3 /* AYChangeFontDemoUITests.m */,
+				47291CB61E54ADE4001B64D3 /* Info.plist */,
+			);
+			path = AYChangeFontDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47291C8B1E54ADE3001B64D3 /* AYChangeFontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47291CB91E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemo" */;
+			buildPhases = (
+				47291C881E54ADE3001B64D3 /* Sources */,
+				47291C891E54ADE3001B64D3 /* Frameworks */,
+				47291C8A1E54ADE3001B64D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYChangeFontDemo;
+			productName = AYChangeFontDemo;
+			productReference = 47291C8C1E54ADE3001B64D3 /* AYChangeFontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47291CA41E54ADE4001B64D3 /* AYChangeFontDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47291CBC1E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemoTests" */;
+			buildPhases = (
+				47291CA11E54ADE4001B64D3 /* Sources */,
+				47291CA21E54ADE4001B64D3 /* Frameworks */,
+				47291CA31E54ADE4001B64D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47291CA71E54ADE4001B64D3 /* PBXTargetDependency */,
+			);
+			name = AYChangeFontDemoTests;
+			productName = AYChangeFontDemoTests;
+			productReference = 47291CA51E54ADE4001B64D3 /* AYChangeFontDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47291CAF1E54ADE4001B64D3 /* AYChangeFontDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47291CBF1E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemoUITests" */;
+			buildPhases = (
+				47291CAC1E54ADE4001B64D3 /* Sources */,
+				47291CAD1E54ADE4001B64D3 /* Frameworks */,
+				47291CAE1E54ADE4001B64D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47291CB21E54ADE4001B64D3 /* PBXTargetDependency */,
+			);
+			name = AYChangeFontDemoUITests;
+			productName = AYChangeFontDemoUITests;
+			productReference = 47291CB01E54ADE4001B64D3 /* AYChangeFontDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47291C841E54ADE3001B64D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "国立安";
+				TargetAttributes = {
+					47291C8B1E54ADE3001B64D3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					47291CA41E54ADE4001B64D3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47291C8B1E54ADE3001B64D3;
+					};
+					47291CAF1E54ADE4001B64D3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47291C8B1E54ADE3001B64D3;
+					};
+				};
+			};
+			buildConfigurationList = 47291C871E54ADE3001B64D3 /* Build configuration list for PBXProject "AYChangeFontDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47291C831E54ADE3001B64D3;
+			productRefGroup = 47291C8D1E54ADE3001B64D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47291C8B1E54ADE3001B64D3 /* AYChangeFontDemo */,
+				47291CA41E54ADE4001B64D3 /* AYChangeFontDemoTests */,
+				47291CAF1E54ADE4001B64D3 /* AYChangeFontDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47291C8A1E54ADE3001B64D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47291CEA1E54AE35001B64D3 /* FontCell.xib in Resources */,
+				47291C9F1E54ADE3001B64D3 /* LaunchScreen.storyboard in Resources */,
+				47291CD41E54AE26001B64D3 /* list-icon-02@2x.png in Resources */,
+				47291CD71E54AE26001B64D3 /* list-icon-03@2x.png in Resources */,
+				47291CD81E54AE26001B64D3 /* list-icon-03@3x.png in Resources */,
+				47291CDB1E54AE26001B64D3 /* list-icon-04@3x.png in Resources */,
+				47291CD51E54AE26001B64D3 /* list-icon-02@3x.png in Resources */,
+				47291C9C1E54ADE3001B64D3 /* Assets.xcassets in Resources */,
+				47291CD01E54AE26001B64D3 /* list-icon-01.png in Resources */,
+				47291C9A1E54ADE3001B64D3 /* Main.storyboard in Resources */,
+				47291CD91E54AE26001B64D3 /* list-icon-04.png in Resources */,
+				47291CD31E54AE26001B64D3 /* list-icon-02.png in Resources */,
+				47291CD21E54AE26001B64D3 /* list-icon-01@3x.png in Resources */,
+				47291CD61E54AE26001B64D3 /* list-icon-03.png in Resources */,
+				47291CD11E54AE26001B64D3 /* list-icon-01@2x.png in Resources */,
+				47291CCF1E54AE26001B64D3 /* set-word-img@2x.png in Resources */,
+				47291CDA1E54AE26001B64D3 /* list-icon-04@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CA31E54ADE4001B64D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CAE1E54ADE4001B64D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47291C881E54ADE3001B64D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47291C971E54ADE3001B64D3 /* ViewController.m in Sources */,
+				47291CEB1E54AE35001B64D3 /* AYBaseLabel.m in Sources */,
+				47291C941E54ADE3001B64D3 /* AppDelegate.m in Sources */,
+				47291C911E54ADE3001B64D3 /* main.m in Sources */,
+				47291CE81E54AE35001B64D3 /* FontViewController.m in Sources */,
+				47291CE91E54AE35001B64D3 /* FontCell.m in Sources */,
+				47291CEC1E54AE35001B64D3 /* AYFontManager.m in Sources */,
+				47291CE71E54AE35001B64D3 /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CA11E54ADE4001B64D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47291CAA1E54ADE4001B64D3 /* AYChangeFontDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47291CAC1E54ADE4001B64D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47291CB51E54ADE4001B64D3 /* AYChangeFontDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47291CA71E54ADE4001B64D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47291C8B1E54ADE3001B64D3 /* AYChangeFontDemo */;
+			targetProxy = 47291CA61E54ADE4001B64D3 /* PBXContainerItemProxy */;
+		};
+		47291CB21E54ADE4001B64D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47291C8B1E54ADE3001B64D3 /* AYChangeFontDemo */;
+			targetProxy = 47291CB11E54ADE4001B64D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47291C981E54ADE3001B64D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47291C991E54ADE3001B64D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47291C9D1E54ADE3001B64D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47291C9E1E54ADE3001B64D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47291CB71E54ADE4001B64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47291CB81E54ADE4001B64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47291CBA1E54ADE4001B64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYChangeFontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47291CBB1E54ADE4001B64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYChangeFontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47291CBD1E54ADE4001B64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYChangeFontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYChangeFontDemo.app/AYChangeFontDemo";
+			};
+			name = Debug;
+		};
+		47291CBE1E54ADE4001B64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYChangeFontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYChangeFontDemo.app/AYChangeFontDemo";
+			};
+			name = Release;
+		};
+		47291CC01E54ADE4001B64D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYChangeFontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYChangeFontDemo;
+			};
+			name = Debug;
+		};
+		47291CC11E54ADE4001B64D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYChangeFontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anguoli.AYChangeFontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYChangeFontDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47291C871E54ADE3001B64D3 /* Build configuration list for PBXProject "AYChangeFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47291CB71E54ADE4001B64D3 /* Debug */,
+				47291CB81E54ADE4001B64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47291CB91E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47291CBA1E54ADE4001B64D3 /* Debug */,
+				47291CBB1E54ADE4001B64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47291CBC1E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47291CBD1E54ADE4001B64D3 /* Debug */,
+				47291CBE1E54ADE4001B64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47291CBF1E54ADE4001B64D3 /* Build configuration list for PBXNativeTarget "AYChangeFontDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47291CC01E54ADE4001B64D3 /* Debug */,
+				47291CC11E54ADE4001B64D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47291C841E54ADE3001B64D3 /* Project object */;
+}
