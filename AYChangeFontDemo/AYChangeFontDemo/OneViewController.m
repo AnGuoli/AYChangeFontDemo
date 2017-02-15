@@ -41,7 +41,7 @@ static NSString * const HLBasicCellID = @"HLBasicCellID";
     UIView *footView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 100)];
     footView.backgroundColor = [UIColor cyanColor];
     AYBaseLabel *footlabel = [[AYBaseLabel alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 40)];
-    footlabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十";
+    footlabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九";
 //    footlabel.fontSize = 9;
     [footView addSubview:footlabel];
     
@@ -113,8 +113,8 @@ static NSString * const HLBasicCellID = @"HLBasicCellID";
         }
         
         cell.imageView.image = [UIImage imageNamed:imageName];
-        cell.textLabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十";
-        cell.detailTextLabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十";
+        cell.textLabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九";
+        cell.detailTextLabel.text = @"一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九";
     
     CGFloat sizeScale = [AYFontManager sharedManager].size;
     cell.textLabel.font = [UIFont systemFontOfSize:17*sizeScale];
